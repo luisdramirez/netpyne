@@ -3,6 +3,10 @@
 language: python
 python:
   - "2.7"
+
+install:
+  - pip install netpyne
+  
 script:
   - python examples/HHTut_run.py
   - python examples/HybridTut_run.py

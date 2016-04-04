@@ -4,11 +4,12 @@ language: python
 python:
   - "2.7"
 script:
-  - python HHTut_run.py
-  - python HybridTut_run.py
-  - python M1_run.py
-  - python tut2.py
-  - python tut3.py
-  - python tut4.py
+  - python examples/HHTut_run.py
+  - python examples/HybridTut_run.py
+  - python examples/M1_run.py
+  - python doc/source/code/tut2.py
+  - python doc/source/code/tut3.py
+  - python doc/source/code/tut4.py
+  
 notifications:
     email: true

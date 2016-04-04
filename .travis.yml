@@ -12,4 +12,4 @@ script:
   - python doc/source/code/tut4.py
   
 notifications:
-    email: true
+    email: false

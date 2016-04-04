@@ -6,6 +6,7 @@ python:
 
 install:
   - pip install netpyne
+  - pip install pylab
   
 script:
   - python examples/HHTut_run.py
